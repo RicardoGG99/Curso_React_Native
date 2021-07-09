@@ -1,7 +1,8 @@
 import styled from 'styled-components/native';
 import constants from 'expo-constants'
 
-import { primary } from './colors'
+import { Colors } from './colors'
+const { primary } = Colors
 
 const StatusBarHeight = constants.statusBarHeight
 

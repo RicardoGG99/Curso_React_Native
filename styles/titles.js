@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 
-import { brand, tertiary } from './colors'
+import { Colors } from './colors'
+const { brand, tertiary } = Colors
 
 export const PageTitle = styled.Text`
     font-size: 30px;

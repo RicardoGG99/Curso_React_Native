@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 
-import { secondary } from './colors'
+import { Colors } from './colors'
+const { secondary } = Colors
 
 export const PageLogo = styled.Image`
     width: 250px;

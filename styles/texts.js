@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 
-import { secondary, tertiary, brand } from './colors'
+import { Colors } from './colors'
+const { secondary, tertiary, brand } = Colors
 
 export const StyledTextInput = styled.TextInput`
     background-color: ${secondary};

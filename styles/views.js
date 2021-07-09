@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 
-import { darkLight } from './colors'
+import { Colors } from './colors'
+const { darkLight } = Colors
 
 export const StyledFormArea = styled.View`
     width: 90%;
