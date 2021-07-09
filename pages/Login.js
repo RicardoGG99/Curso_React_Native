@@ -7,30 +7,18 @@ import { Formik } from 'formik';
 //Icons
 import { Octicons, Ionicons } from '@expo/vector-icons';
 
-import { StyledContainer, 
-         InnerContainer, 
-         PageLogo, 
-         PageTitle, 
-         SubTitle, 
-         StyledFormArea,
-         StyledTextInput,
-         StyledInputLabel,
-         LeftIcon,
-         RightIcon,
-         StyledButton,
-         StyledButtonText,
-         Colors,
-         MessageBox,
-         Line,
-         ExtraView,
-         ExtraText,
-         TextLink,
-         TextLinkContent
-          } 
-from '../components/styles';
-import { View } from 'react-native'
+//styles
+import { StyledButton, StyledButtonText } from '../styles/buttons'
+import { darkLight, brand } from '../styles/colors'
+import { StyledContainer, InnerContainer } from '../styles/containers'
+import { LeftIcon, RightIcon } from '../styles/icons'
+import { PageLogo } from '../styles/images'
+import { StyledTextInput, StyledInputLabel, MessageBox, ExtraText, TextLink, TextLinkContent } from '../styles/texts'
+import { PageTitle, SubTitle } from '../styles/titles'
+import { StyledFormArea, Line, ExtraView } from '../styles/views'
 
-const { brand, darkLight } = Colors;
+
+import { View } from 'react-native'
 
 
 const Login = () => {
